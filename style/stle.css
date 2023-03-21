@@ -1,0 +1,98 @@
+/* Custom-Properties */
+    /* Se declaran los colores que vamos a usar en la página */
+:root{
+   --first-color: rgb(217, 0, 98);
+   --first-alpha-color: rgba(217, 0, 98, 0.75);
+   --second-color: rgb(20, 25, 45);
+   --second-alpha-color: rgb(20, 25, 45, 0.77);
+   --third-color: rgb(80, 20, 100);
+   --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+   --link-color: rgb(80, 158, 227);
+   --linl-alpha-color: rgba(80, 158, 227, 0.75);
+
+   --bg-color: rgb(245, 245, 245);
+   --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+/* Reset-Styles */
+    /* Se declaran las tipografias */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Boostrap-Styles */
+.navbar-brand img{
+    width: auto;
+    height: 30px;
+}
+.nav-item{
+    margin-left: .9rem;
+    transition: all .3s ease-out;
+}
+.nav-item:hover{
+    background-color: var(--first-alpha-color) !important;
+    transition: 0.5s;
+}
+.nav-link{
+    color: var(--first-color);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--bs-white);
+}
+.material-symbols-outlined:hover {
+    transition: all .3s ease-out;
+    border-radius: 50%;
+    color: var(--first-alpha-color);
+
+
+}
+.bg-dark{
+    background-color: var(--second-color) !important;
+}
+.dropdown-menu{
+    background-color: var(--bs-white) !important;
+    margin-top: 10px !important;
+}
+
+.dropdown-item{
+    color: var(--first-alpha-color);
+}
+.dropdown-item:hover{
+    background-color: var(--first-alpha-color);
+    color: var(--second-alpha-color);
+    font-style: italic;
+    transition: all .2s ease-out;
+}
+/* My-Styles */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+/* 
+// XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
